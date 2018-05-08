@@ -142,15 +142,15 @@ html
                 else if (check_lan() == 'ja_jp')
                   img(src="/images/jp_JA.png")
                   span.menu-text JP
-                  span.caret
-                else if (check_lan() == 'fr_fr')
+                   span.caret
+				else if (check_lan() == 'fr_fr')
                   img(src="/images/fr.png")
                   span.menu-text FR
-                  span.caret
-                else if (check_lan() == 'de_de')
+                   span.caret
+				else if (check_lan() == 'de_de')
                   img(src="/images/german.png")
                   span.menu-text DE
-                  span.caret
+                   span.caret
                 else if (check_lan() == 'th_th')
                   img(src="/images/th_TH.png")
                   span.menu-text TH
@@ -177,14 +177,6 @@ html
                     a(href="/language/ja_jp")
                       img(src="/images/jp_JA.png")
                       span.menu-text JP
-                  if (check_lan() != 'fr_fr')
-                    a(href="/language/fr_fr")
-                      img(src="/images/fr.png")
-                      span.menu-text FR
-                  if (check_lan() != 'de_de')
-                    a(href="/language/de_de")
-                      img(src="/images/german.png")
-                      span.menu-text DE
                   if (check_lan() != 'th_th')
                     a(href="/language/th_th")
                       img(src="/images/th_TH.png")
