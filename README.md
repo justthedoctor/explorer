@@ -1,11 +1,11 @@
-Whitecoin Explorer - 1.6.2
+Pandacoin Explorer - 1.6.2
 ================
 
 An open source block explorer for Hush written in node.js based on [Iquidus Explorer - 1.6.1](https://github.com/iquidus/explorer)
 
 ### See it in action
 
-*  [Whitecoin](http://explorer2.whitecoin.info)
+*  [Pandacoin](http://server1.cryptodepot.org:3001/)
 
 
 *note: If you would like your instance mentioned here contact me*
@@ -14,7 +14,7 @@ An open source block explorer for Hush written in node.js based on [Iquidus Expl
 
 *  node.js >= 0.10.28
 *  mongodb 2.6.x
-*  whitecoind
+*  Pandacoind
 
 ### Create database
 
@@ -36,7 +36,7 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/iquidus/explorer explorer
+    git clone https://github.com/digitalpandacoin/explorer explorer
 
 ### Install node modules
 
@@ -100,9 +100,6 @@ Iquidus Explorer is intended to be generic so it can be used with any wallet fol
 
     -daemon -txindex
 
-### Donate
-
-    XWC: WdPskLzGkjXkSns3BgkRF5fW5SveTBS7tR
 
 ### Known Issues
 
