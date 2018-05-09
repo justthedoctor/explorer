@@ -5,12 +5,12 @@
 */
 {
   // name your instance!
-  "title": "Whitecoin Block Explorer",
+  "title": "Pandacoin Block Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Whitecoin",
+  "coin": "Pandacoin",
 
   // coin symbol
   "symbol": "XWC",
@@ -48,7 +48,7 @@
   "wallet": {
     "host": "localhost",
     "port": 15815,
-    "user": "whitecoinrpc",
+    "user": "Pandacoinrpc",
     "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
@@ -116,7 +116,7 @@
   },
 
   // twitter, facebook, googleplus
-  "twitter": "whitecoiner",
+  "twitter": "Pandacoiner",
   "facebook": "yourfacebookpage",
   "discord": "inviteurl",
   "googleplus": "yourgooglepluspage",
